@@ -1,0 +1,11 @@
+containers: {
+    jenkins: {
+        image: "jenkins/jenkins:jdk17"
+        ports: {
+            publish: [
+                "8080/http"
+            ]
+        }
+    }
+}
+
