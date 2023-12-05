@@ -41,9 +41,13 @@ Paste in the password you copied from the shell window and click "Continue".
 
 On the next page create your admin account and make sure to remember the username and password.
 
+!! admin account 
+
 You will next be prompted to install plugins.  This configuration is up to you.
 
 After installing plugins you should be able to login to your Jenkins dashboard.  
+
+!! dashbaord
 
 Congrats your Jenkins server is now up and running!
 
