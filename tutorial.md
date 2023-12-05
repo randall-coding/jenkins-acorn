@@ -15,29 +15,14 @@ Setup an acorn account at [acorn.io](https://acorn.io).  This can be a free acco
 
 ![signin_acorn](https://github.com/randall-coding/opensupports-docker/assets/39175191/d46815fb-d2d5-42cd-b93d-41ca541a63bd)
 
-## Install acorn cli 
-First we need to install acorn-cli locally.  Choose an install method from the list below:
-
-**Linux or Mac** <br>
-`curl https://get.acorn.io | sh`
-
-**Homebrew (Linux or Mac)** <br>
-`brew install acorn-io/cli/acorn`
-
-**Windows** <br> 
-Uncompress and move the [binary](https://cdn.acrn.io/cli/default_windows_amd64_v1/acorn.exe) to your PATH
-
-**Windows (Scoop)** <br>
-`scoop install acorn`
-
-For up to date installation instructions, visit the [official docs](https://runtime-docs.acorn.io/installation/installing).
-
-## Login with cli
-Back in our local command terminal login to acorn.io with: <br>
-`acorn login acorn.io` 
-
 ## Deploy Jenkins
+On your acorn daashbaord click "Deploy Acorn".
 
+!! deploy acorn
+
+For the "Name" enter in Jenkins (or any variation you like).   <br>
+For the "Acorn Image" enter `ghcr.io/randall-coding/acorn/jenkins`   <br>
+Then click "Deploy".
 
 ## Setting up Jenkins
 Let's start by jumping into the shell on [acorn.io](https://acorn.io).  Click the three vertial dots next to your app and click "Execute Shell" from the dropdown menu.
