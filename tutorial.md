@@ -45,7 +45,9 @@ Click the Jenkins url listed in the "endpoints" sections of your acorn dashboard
 
 ![jenkins_endpoints](https://github.com/randall-coding/jenkins-acorn/assets/39175191/8edbc8c0-1030-4984-9ae2-bf5a7f5c8fbe)
 
-Paste in the password you copied from the shell window and click "Continue".
+Paste in the password you copied from the shell window into the form of the "Unlock" screen and click "Continue".
+
+![jenkins_unlock_screen](https://github.com/randall-coding/jenkins-acorn/assets/39175191/e650d002-d8d1-4d81-a3b6-2634f6d1fc1d)
 
 On the next page create your admin account with username and password.
 
@@ -59,7 +61,7 @@ After installing plugins you should be able to login to your Jenkins dashboard.
 
 ![jenkins_dashboard](https://github.com/randall-coding/jenkins-acorn/assets/39175191/c1d9c484-6207-4fdc-bb51-a57edbf2f76b)
 
-Congrats your Jenkins server is now up and running!
+Congratulations your Jenkins server is now up and running!  For more detailed instructions on using Jenkins see the references section below.
 
 ## References
 * [Installing Jenkins](https://www.jenkins.io/doc/book/installing/)
