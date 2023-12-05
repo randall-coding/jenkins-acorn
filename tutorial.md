@@ -3,7 +3,7 @@
 ## Jenkins
 [Jenkins](https://www.jenkins.io) is a versatile open-source automation server for continuous integration and delivery. It automates development stages like build, test, and deployment while supporting numerous plugins. Its extensibility makes it a staple in modern CI/CD toolchains.
 
-Jenkins excels in pipeline automation, allowing scripted workflows in various languages. It integrates seamlessly with version control systems, enabling automated builds upon code updates for a smoother workflow.  This boosts development efficiency and reliability.
+Jenkins excels in pipeline automation, allowing scripted workflows in various languages. It integrates seamlessly with version control systems, enabling automated builds triggered by code updates for a smooth workflow.  This boosts development efficiency and reliability.
 
 In this tutorial we will deploy our Jenkins server using an Acorn image.
 
